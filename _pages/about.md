@@ -1,26 +1,25 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Currenly a Master's Student at <a href='https://ethz.ch/en.html'>ETH Zürich</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me-pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>Msc Quantum Engineering</p>
+  #   <p>Bsc Physics</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am doing my Master’s in <a href='https://master-qe.ethz.ch/'>MSc Quantum Engineering</a> at D-ITET(Electrical Engineering Department), ETH Zürich, Zürich, Switzerland. I did some projects in [Computer Architecture]({{ "/projects/" | relative_url }})(both ASIC and FPGA, including one tapeout), [Event-based Cameras]({{ "/projects/" | relative_url }})(PCB+firmware+software design and object detection algorithm), and [Virtual Reality]({{ "/projects/" | relative_url }})(dynamic mesh mendering with neural implicit fields).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before this, I did my bachelor’s in Physics at Peking University, Beijing, China. I did some projects in [Topological Photonics]({{ "/projects/" | relative_url }})(simulation on bound states in the continuum and polarization vortices).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Follow [this link]({{ "/projects/" | relative_url }}) to see the details of those projects and related publications.

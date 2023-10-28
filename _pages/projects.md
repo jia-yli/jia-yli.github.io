@@ -1,12 +1,12 @@
 ---
 layout: page
-title: projects
+title: My Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My on going and past projects. Click for more details if you are interested in any of them.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
+display_categories: [On Going(2023-), 2022-2023, 2021 and Before]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -16,11 +16,11 @@ horizontal: false
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" | reverse %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
@@ -37,7 +37,7 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  {%- assign sorted_projects = site.projects | sort: "importance" | reverse -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
