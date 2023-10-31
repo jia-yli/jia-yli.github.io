@@ -7,7 +7,7 @@ importance: 4
 category: 2022-2023
 ---
 
-6-month full-time internship at Huawei Zürich Research Center. With custom designed hardware components and software operators, I demonstrated upto 7x acceleration for convlution operators in EfficientDet on MOT17 task, up to 10% acceleration for the matrix-matrix multiplication operator for a internal recommender model without any precision loss.
+I did a 6-month full-time internship at Huawei Zürich Research Center and was working on their Da Vinci Architecture. With custom designed hardware components and software operators, leveraging the sparsity in the workload, I demonstrated upto 7x acceleration for convolution operators in EfficientDet on MOT17 task, and up to 10% acceleration for the matrix-matrix multiplication operator for a internal recommender model without any precision loss.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
