@@ -25,12 +25,15 @@ On the tester, under room temperature and 1.2V power supply, Eclipse works at 37
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/project_3/eclipse_layout2_sml.jpg" title="Eclipse Layout" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/project_3/eclipse01.jpg" title="Eclipse Real Chip" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Eclipse Layout
+    Chip Layout of Eclipse (Left) and a Photo for the Real Silicon Die (Right)
 </div>
 
 <div class="row">

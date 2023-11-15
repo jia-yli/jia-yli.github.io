@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<!-- page.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {{ page.title }} 
+      {% if page.cv_pdf %}
+        <div class="pdf-cv-container">
+          <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="pdf-icon"><i class="fas fa-file-pdf"></i></a>
+          <span class="cv-text">My CV</span>
+        </div>
+      {% endif %}
+    </h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+  {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+  <h2>References</h2>
+  <div class="publications">
+    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+  </div>
+  {%- endif %}
+
+  {%- if site.giscus and page.giscus_comments -%}
+    {% include giscus.html %}
+  {%- endif -%}
+</div>
