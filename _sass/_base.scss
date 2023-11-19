@@ -1076,4 +1076,15 @@ nav[data-toggle="toc"] {
   }
 }
 
+.icon-container {
+  float: right;
+  display: flex;
+  align-items: center;
+
+  .icon-link {
+      font-size: 36px; // Adjust based on your preference
+      margin-left: 10px; // Space between icons
+
+  }
+}
 

@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project-detail
 title: Undergraduate Research on Topological Photonics
 description: The first exploration of polarization vortices outside the first Brillouin zone. A collection of work that includes both theory and simulation of Bound States in the Continuum(BICs) and polarization vortices.
 img: assets/img/projects/project_1/BIC-thumbnail.jpg
+publication_link: https://www.nature.com/articles/s41467-022-34307-4
 importance: 1
 category: 2021 and Before
 ---

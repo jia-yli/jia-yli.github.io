@@ -3,7 +3,7 @@ layout: about
 title: About Me
 permalink: /
 subtitle: Currenly a Master's Student at <a href='https://ethz.ch/en.html'>ETH Zürich</a>.
-cv_pdf: example_pdf.pdf
+cv_pdf: CV_JiayongLi.pdf
 
 profile:
   align: right

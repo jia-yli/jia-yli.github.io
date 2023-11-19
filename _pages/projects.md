@@ -5,7 +5,7 @@ permalink: /projects/
 description: My on going and past projects. Click for more details if you are interested in any of them.
 nav: true
 nav_order: 2
-cv_pdf: example_pdf.pdf
+cv_pdf: CV_JiayongLi.pdf
 display_categories: [On Going(2023-), 2022-2023, 2021 and Before]
 horizontal: true
 ---

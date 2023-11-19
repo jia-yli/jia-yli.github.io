@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: project-detail
 title: Distributed Storage Deduplication
-description: On going project to extend DedupCore with distributed hash table implementation.
-img:
+description: Ongoing project to extend DedupCore with distributed hash table implementation.
+img: assets/img/projects/project_7/temp_thumbnail.jpg
+github_url: https://github.com/jia-yli/distributed-dedup
 importance: 7
 category: On Going(2023-)
 ---
