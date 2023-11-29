@@ -1,7 +1,7 @@
 ---
 layout: project-detail
 title: Dynamic Rendering of Neural Implicit Representations in VR
-description: Ongoing project to extract time series geometry and color information extraction from SDF-based models and realize real-time rendering of dynamic meshes in VR
+description: An ongoing project to extract time series geometry and color information from SDF-based models and realize real-time rendering of dynamic meshes in VR
 img: assets/img/projects/project_6/temp_thumbnail.jpg
 importance: 6
 category: On Going(2023-)

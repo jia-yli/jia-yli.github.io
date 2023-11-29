@@ -1,7 +1,7 @@
 ---
 layout: project-detail
-title: Smart Datamover for Ascend
-description: Hardware software codesign for efficient machine learning tasks processing on Ascend. Internship project at Huawei Zürich Research Center.
+title: Smart Data Mover for Ascend
+description: Hardware-software codesign for efficient machine learning tasks processing on Ascend. Internship project at Huawei Zürich Research Center.
 img: assets/img/projects/project_4/AscendCard.png
 importance: 4
 category: 2022-2023
@@ -20,4 +20,4 @@ I did a 6-month full-time internship at Huawei Zürich Research Center and was w
 
 My work focused on machine learning acceleration leveraging the <span class="font-weight-bold">sparsity in real-world workloads</span>. I developed software operators on <span class="font-weight-bold">both GPU(CUDA) and Ascend(TIK) platform</span>, and also the <span class="font-weight-bold">hardware extensions for the datamover</span> in Da Vinci Architecture. 
 
-On Ascend, with custom designed hardware components and software operators, I demonstrated upto <span class="font-weight-bold">7x acceleration for convolution</span> operators in EfficientDet on MOT17 task, and up to <span class="font-weight-bold">10% acceleration for the matrix-matrix multiplication</span> operator for a internal recommender model <span class="font-weight-bold">without any precision loss</span>.
+On Ascend, with custom-designed hardware components and software operators, I demonstrated up to <span class="font-weight-bold">7x acceleration for convolution</span> operators in EfficientDet on the MOT17 task, and up to <span class="font-weight-bold">10% acceleration for the matrix-matrix multiplication</span> operator for an internal recommender model <span class="font-weight-bold">without any precision loss</span>.
