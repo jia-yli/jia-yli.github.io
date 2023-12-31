@@ -23,4 +23,4 @@ I am doing my Master’s in <a href='https://master-qe.ethz.ch/'>MSc Quantum Eng
 
 Before this, I did my bachelor’s in Physics at Peking University, Beijing, China. I did some projects in [Topological Photonics]({{ "/projects/" | relative_url }})(simulation on bound states in the continuum and polarization vortices).
 
-Follow [this link]({{ "/projects/" | relative_url }}) to see the details of those projects and related publications.
+You can go to [My Projects]({{ "/projects/" | relative_url }}) to see the details of those projects and related publications.

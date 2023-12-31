@@ -6,7 +6,7 @@ description: My on going and past projects. Click for more details if you are in
 nav: true
 nav_order: 2
 cv_pdf: CV_JiayongLi.pdf
-display_categories: [On Going(2023-), 2022-2023, 2021 and Before]
+display_categories: [On Going(2023-), 2023-2024, 2022-2023, 2021 and Before]
 horizontal: true
 ---
 
